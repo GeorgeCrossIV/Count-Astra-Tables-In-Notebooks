@@ -4,7 +4,7 @@ This repository contains a Jupyter Notebook that demonstrates how to use DSBulk 
 
 ## Prerequisites
 
-- Jupyter Notebook
+- A Notebook environment such as Jupyter or Google Colab
 - [Astra DB account](https://www.datastax.com/products/datastax-astra)
 - Secure connect bundle for your Astra DB instance
 
