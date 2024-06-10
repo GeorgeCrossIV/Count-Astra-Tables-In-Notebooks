@@ -9,17 +9,7 @@ This repository contains a Jupyter Notebook that demonstrates how to use DSBulk 
 - Secure connect bundle for your Astra DB instance
 
 ## Notebook Overview
-
-### 1. Download DSBulk
-
-The notebook starts by downloading the DSBulk tool from DataStax.
-
-```python
-# Download DSBulk
-!wget https://downloads.datastax.com/dsbulk/dsbulk.tar.gz
-
-# Extract DSBulk
-!tar -xvf dsbulk.tar.gz
-
-# Make dsbulk executable
-!chmod +x dsbulk-1.11.0/bin/dsbulk
+The notebook will do the following:
+- Download the dsbulk tool
+- Obtain the username/password (client ID/Secret)
+- Run the dsbulk count command to obtain the count
